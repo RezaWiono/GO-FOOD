@@ -3,14 +3,13 @@ import {
   Navbar,
   NavbarBrand} from 'reactstrap';
 
-export default class Example extends React.Component {
+export default class navbar extends React.Component {
   render() {
     return (
       <div>
         <Navbar color="success" light expand="md">
-          <NavbarBrand href="/">GO-FOOD</NavbarBrand>
-          <input class="form-control mr-sm-4" type="search" placeholder="Search" aria-label="Search"></input>
-          <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+          <NavbarBrand href="/">
+          <img src="https://lelogama.go-jek.com/ramadhan2018_page_icon/go-food3x.png" width="210" height="50" alt="/"></img></NavbarBrand>
         </Navbar>
       </div>
     );

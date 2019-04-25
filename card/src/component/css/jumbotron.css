@@ -1,0 +1,19 @@
+.jumbotron{
+    background-image: url(https://pbs.twimg.com/media/CvRQwNuUsAAG4_E.jpg);
+    background-size: cover;
+    height: 465px;
+    width: 1366px;
+    text-align: center;
+}
+
+.tombol1{
+    background: linear-gradient(90deg, #108a00, #18cf00);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
