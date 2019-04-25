@@ -34,9 +34,12 @@ export default class Counter extends Component {
                         <hr></hr>
                         <p>Harga: {this.props.harga}</p>
                         <p style={{ fontSize: '24px'}}> Banyak Pesanan</p>
-                        <h1>{this.state.qty}</h1>
-                        <button type="button" className="btn btn-warning" onClick={this.kurang}>-</button>{' '}
-                        <button type="button" class="btn btn-success" onClick={this.tambah}>+</button>
+                        
+                    <div className="bg-transparant clearfix" style={{ padding: '.5rem' }}>
+                        <button type="button" className="btn btn-danger float-left" onClick={this.kurang}>-</button>
+                        
+                        <button type="button" className="btn btn-success float-right" onClick={this.tambah}>+</button><h1>{this.state.qty}</h1>
+                    </div>
                     </CardBody>
         </Card>
         </Container>
